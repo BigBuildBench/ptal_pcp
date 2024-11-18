@@ -1,0 +1,17 @@
+[package]
+name = "pcp_lang"
+version = "0.1.3"
+authors = ["Pierre Talbot <ptalbot@hyc.io>"]
+
+description = "Language for constraint programming with PCP."
+repository = "https://github.com/ptal/pcp"
+keywords = ["constraint", "language"]
+license = "Apache-2.0"
+
+[lib]
+
+path = "src/lib.rs"
+crate_type = ["dylib"]
+plugin = true
+
+[dependencies]
